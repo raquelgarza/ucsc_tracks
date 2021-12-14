@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="hg38" hasGeneTrack="false" hasSequenceTrack="true" locus="chr3:43047294-43088271" version="8">
+    <Resources>
+        <Resource path="HuEmCtxfresh7w4d_190416_bulk_DA103_S1_Aligned.sortedByCoord.out.reverse.bw" type="bw"/>
+        <Resource path="HuEmCtx_40mm_190611_bulkB_S3_Aligned.sortedByCoord.out.forward.bw" type="bw"/>
+        <Resource path="../../../annotations/human/repeatmasker/hg38_rmsk_TEtranscripts.sorted.bed" type="bed"/>
+        <Resource path="HuEmCtxfresh8w6d_190416_bulk_DA140_S22_Aligned.sortedByCoord.out.reverse.bw" type="bw"/>
+        <Resource path="HuEmCtx_40mm_190611_bulkB_S3_Aligned.sortedByCoord.out.reverse.bw" type="bw"/>
+        <Resource path="HuEmCtx_40mm_190611_bulkA_S2_Aligned.sortedByCoord.out.forward.bw" type="bw"/>
+        <Resource path="HuEmCtxfresh8w6d_190416_bulk_DA140_S22_Aligned.sortedByCoord.out.forward.bw" type="bw"/>
+        <Resource path="HuEmCtx_40mm_190611_bulkA_S2_Aligned.sortedByCoord.out.reverse.bw" type="bw"/>
+        <Resource index="https://s3.amazonaws.com/igv.org.genomes/hg38/ncbiRefSeq.sorted.txt.gz.tbi" name="Refseq Genes" path="https://s3.amazonaws.com/igv.org.genomes/hg38/ncbiRefSeq.sorted.txt.gz" type="refgene"/>
+        <Resource path="HuEmCtxfresh40mm10-5w_201029_bulk_S23_Aligned.sortedByCoord.out.forward.bw" type="bw"/>
+        <Resource path="HuEmCtxfresh40mm10-5w_201029_bulk_S23_Aligned.sortedByCoord.out.reverse.bw" type="bw"/>
+        <Resource path="HuEmCtxfresh7w4d_190416_bulk_DA103_S1_Aligned.sortedByCoord.out.forward.bw" type="bw"/>
+        <Resource path="HuEmCtxfresh8w_190319_bulk_DA094_S21_Aligned.sortedByCoord.out.reverse.bw" type="bw"/>
+        <Resource path="HuEmCtxfresh8w_190319_bulk_DA094_S21_Aligned.sortedByCoord.out.forward.bw" type="bw"/>
+    </Resources>
+    <Panel height="231" name="DataPanel" width="2543">
+        <Track attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="10" height="100" id="60487f1f-2436-4eee-8535-27bab4348dcc" name="Brain_development_forward" visible="true">
+            <Track altColor="115,115,192" attributeKey="HuEmCtx_40mm_190611_bulkA_S2_Aligned.sortedByCoord.out.forward.bw" autoScale="false" color="115,115,192" fontSize="10" height="70" id="/Volumes/My Passport/CTG_JGJSeq120_122/map/unique/HuEmCtx_40mm_190611_bulkA_S2_Aligned.sortedByCoord.out.forward.bw" name="HuEmCtx_40mm_10.5w_forward" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+            <Track altColor="114,114,191" attributeKey="HuEmCtx_40mm_190611_bulkB_S3_Aligned.sortedByCoord.out.forward.bw" autoScale="false" color="114,114,191" fontSize="10" height="70" id="/Volumes/My Passport/CTG_JGJSeq120_122/map/unique/HuEmCtx_40mm_190611_bulkB_S3_Aligned.sortedByCoord.out.forward.bw" name="HuEmCtx_40mm_10.5w_forward_B" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+            <Track altColor="114,114,191" attributeKey="HuEmCtxfresh7w4d_190416_bulk_DA103_S1_Aligned.sortedByCoord.out.forward.bw" autoScale="false" color="114,114,191" fontSize="10" height="70" id="/Volumes/My Passport/CTG_JGJSeq120_122/map/unique/HuEmCtxfresh7w4d_190416_bulk_DA103_S1_Aligned.sortedByCoord.out.forward.bw" name="DA103_7w4d_forward" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+            <Track altColor="114,114,191" attributeKey="HuEmCtxfresh8w_190319_bulk_DA094_S21_Aligned.sortedByCoord.out.forward.bw" autoScale="false" color="114,114,191" fontSize="10" height="70" id="/Volumes/My Passport/CTG_JGJSeq120_122/map/unique/HuEmCtxfresh8w_190319_bulk_DA094_S21_Aligned.sortedByCoord.out.forward.bw" name="HuEmCtx_8w_forward" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+            <Track altColor="114,114,191" attributeKey="HuEmCtxfresh8w6d_190416_bulk_DA140_S22_Aligned.sortedByCoord.out.forward.bw" autoScale="false" color="114,114,191" fontSize="10" height="70" id="/Volumes/My Passport/CTG_JGJSeq120_122/map/unique/HuEmCtxfresh8w6d_190416_bulk_DA140_S22_Aligned.sortedByCoord.out.forward.bw" name="HuEmCtx_8w6d_forward" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+            <Track altColor="114,114,191" attributeKey="HuEmCtxfresh40mm10-5w_201029_bulk_S23_Aligned.sortedByCoord.out.forward.bw" autoScale="false" color="114,114,191" fontSize="10" height="70" id="/Volumes/My Passport/CTG_JGJSeq120_122/map/unique/HuEmCtxfresh40mm10-5w_201029_bulk_S23_Aligned.sortedByCoord.out.forward.bw" name="HuEmCtx_10.5w_forward" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="50.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="10" height="100" id="3ac3a182-0cbb-45a8-ae03-7b2a56e705ac" name="Brain_development_reverse" visible="true">
+            <Track altColor="153,0,0" attributeKey="HuEmCtx_40mm_190611_bulkA_S2_Aligned.sortedByCoord.out.reverse.bw" autoScale="false" color="153,0,0" fontSize="10" height="70" id="/Volumes/My Passport/CTG_JGJSeq120_122/map/unique/HuEmCtx_40mm_190611_bulkA_S2_Aligned.sortedByCoord.out.reverse.bw" name="HuEmCtx_40mm_10.5w_reverse" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+            <Track altColor="153,0,0" attributeKey="HuEmCtx_40mm_190611_bulkB_S3_Aligned.sortedByCoord.out.reverse.bw" autoScale="false" color="153,0,0" fontSize="10" height="70" id="/Volumes/My Passport/CTG_JGJSeq120_122/map/unique/HuEmCtx_40mm_190611_bulkB_S3_Aligned.sortedByCoord.out.reverse.bw" name="HuEmCtx_40mm_10.5w_reverse_B" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+            <Track altColor="153,0,0" attributeKey="HuEmCtxfresh7w4d_190416_bulk_DA103_S1_Aligned.sortedByCoord.out.reverse.bw" autoScale="false" color="153,0,0" fontSize="10" height="70" id="/Volumes/My Passport/CTG_JGJSeq120_122/map/unique/HuEmCtxfresh7w4d_190416_bulk_DA103_S1_Aligned.sortedByCoord.out.reverse.bw" name="DA103_7w4d_reverse" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+            <Track altColor="153,0,0" attributeKey="HuEmCtxfresh8w_190319_bulk_DA094_S21_Aligned.sortedByCoord.out.reverse.bw" autoScale="false" color="153,0,0" fontSize="10" height="70" id="/Volumes/My Passport/CTG_JGJSeq120_122/map/unique/HuEmCtxfresh8w_190319_bulk_DA094_S21_Aligned.sortedByCoord.out.reverse.bw" name="HuEmCtx_8w_reverse" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+            <Track altColor="153,0,0" attributeKey="HuEmCtxfresh8w6d_190416_bulk_DA140_S22_Aligned.sortedByCoord.out.reverse.bw" autoScale="false" color="153,0,0" fontSize="10" height="70" id="/Volumes/My Passport/CTG_JGJSeq120_122/map/unique/HuEmCtxfresh8w6d_190416_bulk_DA140_S22_Aligned.sortedByCoord.out.reverse.bw" name="HuEmCtx_8w6d_reverse" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+            <Track altColor="153,0,0" attributeKey="HuEmCtxfresh40mm10-5w_201029_bulk_S23_Aligned.sortedByCoord.out.reverse.bw" autoScale="false" color="153,0,0" fontSize="10" height="70" id="/Volumes/My Passport/CTG_JGJSeq120_122/map/unique/HuEmCtxfresh40mm10-5w_201029_bulk_S23_Aligned.sortedByCoord.out.reverse.bw" name="HuEmCtx_10.5w_reverse" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="50.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+    </Panel>
+    <Panel height="887" name="FeaturePanel" width="2543">
+        <Track attributeKey="Reference sequence" clazz="org.broad.igv.track.SequenceTrack" fontSize="10" id="Reference sequence" name="Reference sequence" sequenceTranslationStrandValue="POSITIVE" shouldShowTranslation="false" visible="true"/>
+        <Track attributeKey="Refseq Genes" clazz="org.broad.igv.track.FeatureTrack" fontSize="10" groupByStrand="false" id="https://s3.amazonaws.com/igv.org.genomes/hg38/ncbiRefSeq.sorted.txt.gz" name="Refseq Genes" visible="true"/>
+        <Track attributeKey="hg38_rmsk_TEtranscripts.sorted.bed" clazz="org.broad.igv.track.FeatureTrack" color="0,153,153" featureVisibilityWindow="4583021" fontSize="10" groupByStrand="false" id="/Volumes/My Passport/annotations/human/repeatmasker/hg38_rmsk_TEtranscripts.sorted.bed" name="hg38_rmsk_TEtranscripts.sorted.bed" visible="true"/>
+    </Panel>
+    <PanelLayout dividerFractions="0.2071111111111111"/>
+    <HiddenAttributes>
+        <Attribute name="DATA FILE"/>
+        <Attribute name="DATA TYPE"/>
+        <Attribute name="NAME"/>
+    </HiddenAttributes>
+</Session>
